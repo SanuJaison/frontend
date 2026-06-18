@@ -8,7 +8,7 @@ import Preview from "../components/Preview";
 import Edit from "../components/Edit";
 import { useEffect, useState } from "react";
 import { getParticularResume } from "../service/allApi";
-import jsPDF from "jsPDF";
+import { jsPDF } from "jspdf";
 import html2canvas from "html2canvas";
 
 function ViewResume() {
